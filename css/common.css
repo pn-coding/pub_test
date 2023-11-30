@@ -1,0 +1,51 @@
+body{
+  overflow-x: hidden
+}
+.wrap{
+  width: vw;
+  height: vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  
+  /* background-color: lightgray; */
+}
+
+section{
+  width: 100%;
+  /* height: 1080px; */
+  /* background-color: lightpink; */
+  display: flex;
+  justify-content: center;
+}
+
+.sec_wrap{
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+
+  /* background-color: lightblue; */
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+/* english font */
+.otherFont{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* display none block */
+.on{
+  display: block;
+}
+
+.off{
+  display: none;
+}
